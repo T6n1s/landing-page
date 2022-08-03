@@ -1,2 +1,2 @@
 # landing-page
-This is going to demonstrate my HTML and CSS Flexbox skills!
+This landing page is going to demonstrate my current HTML and CSS Flexbox skills! Warning! The solution I wrote is very beginner-level and it is definitely possible to make this so much better. My goal was to only make it as similar to the sample as I could.

@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: Roboto;
 }
 
 
@@ -15,13 +16,14 @@ body {
 }
 
 .header p {
-    color: white;
+    color: #F9FAF8;
     font-weight: bold;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
     margin: 8px;
 }
 
@@ -42,7 +44,9 @@ li {
     flex-direction: column;
     width: 400px;
     height: 200px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-bottom: 50px;
 
 }
 
@@ -52,6 +56,16 @@ li {
     font-weight: 900;
 }
 
+.uhinfo p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.uhinfo button {
+    border: 2px solid #1f2937;
+    font-weight: bold;
+}
+
 .uhimage {
     width: 500px;
     height: 200px;
@@ -59,13 +73,16 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F9FAF8;
+    background-color: gray;
 
 }
 
 .uppermid {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
 
@@ -73,12 +90,13 @@ li {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 36px;
 }
 
 .uppermidcont {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 50px;
 }
 
 .container {
@@ -86,13 +104,15 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100px;
+    width: 150px;
+    text-align: center;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
-    outline: 5px solid blue;
+    width: 150px;
+    height: 150px;
+    outline: 3px solid #3882F6;
+    border-radius: 10px;
 
 }
 
@@ -102,6 +122,22 @@ li {
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+.quote {
+    display: flex;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    flex-direction: column;
+    
+}
+
+.quote p {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .lower {
@@ -114,13 +150,31 @@ li {
 .lowercontainer {
     display: flex;
     background-color: #3882F6;
-    padding: 20px 40px;
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .lowerinfo {
     display: flex;
-
+    flex-direction: column;
+    color: #F9FAF8;
+    justify-content: center;
 }
+
+.lowerinfo span {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.lowerinfo p {
+    margin: 0;
+}
+
+
 
 .footer {
     display: flex;
@@ -128,4 +182,17 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
+    color: #F9FAF8;
 }
+
+button {
+    padding: 5px 18px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: bold;
+    
+
+}
+
